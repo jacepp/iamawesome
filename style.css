@@ -1,0 +1,48 @@
+/*
+Theme Name: I Am Awesome
+Template: twentytwelve
+*/
+
+@import url(../twentytwelve/style.css);
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: yellow;
+}
+
+a,
+.widget-area .widget a,
+.main-navigation a {
+  font-weight: bold;
+  color: purple;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+a:hover,
+.widget-area .widget a:hover,
+.main-navigation a:hover {
+  color: silver;
+}
+
+.site-header {
+  padding: 0 50px;
+  color: #fdfdfd;
+  background-color: purple;
+}
+
+.site-header h1 a, 
+.site-header h2 {
+  color: #fdfdfd;
+}
+
+.site-content {
+  padding: 25px;
+  background-color: #333;
+}
+
